@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Incluir Tailwind CSS desde CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Puedes personalizar la configuración de Tailwind si lo deseas -->
 </head>
 <body class="bg-white text-gray-800 font-sans">
 
@@ -55,7 +54,11 @@
       <p class="mb-4">
         En Cantina Chichilo nos enorgullece ofrecerte una experiencia gastronómica única, combinando la tradición con un ambiente acogedor y moderno. Disfrutá de nuestros platos elaborados con ingredientes frescos y de la mejor calidad.
       </p>
-      <img src="imagen-cantina.jpg" alt="Vista del interior de Cantina Chichilo, mostrando su ambiente acogedor y moderno" class="w-full h-auto">
+      <!-- Uso de la etiqueta <picture> para ofrecer formatos alternativos -->
+      <picture> 
+        <source srcset="./img/interiorCantina.jpg" type="image/jpg">
+        <img src="./img/interiorCantina.jpg" alt="Vista del interior de Cantina Chichilo, mostrando su ambiente acogedor y moderno" class="w-full h-auto">
+      </picture>
     </section>
     
     <!-- Sección del Menú -->
