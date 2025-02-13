@@ -626,15 +626,17 @@ Aunque el sitio ha mostrado un alto nivel de compatibilidad y accesibilidad, se 
 # Fase 8: SEO
 ### **SEO On-page**
 
+
 Para mejorar la visibilidad de la página **imziki.github.io/ProyectoAccesibilidad** en los motores de búsqueda, se han implementado las siguientes prácticas de SEO On-page:
 
 1.  **Etiquetas semánticas HTML5**:
-
+    ![image](https://github.com/user-attachments/assets/69044e1a-7771-4365-92ad-ce09aefcbaab)
     -   Se han utilizado etiquetas semánticas como `<header>`, `<main>`, `<footer>`, y `<article>` para estructurar adecuadamente el contenido de la web, lo que facilita a los motores de búsqueda entender la jerarquía y propósito del contenido.
 2.  **Etiqueta `<title>`**:
-
+    
     -   En cada página, se ha incluido una etiqueta `<title>` descriptiva que resume claramente el contenido de la página, lo que ayuda a los motores de búsqueda a identificar el tema principal.
 3.  **Metaetiquetas**:
+    ![image](https://github.com/user-attachments/assets/4fda3de1-fd94-49a2-be76-a0766545c447)
 
     -   Se ha configurado la etiqueta `<meta name="description">` para proporcionar una descripción clara y concisa del contenido de la página. Esta descripción puede aparecer como fragmento en los resultados de búsqueda, mejorando la tasa de clics.
         -   Ejemplo: `<meta name="description" content="Tienda online con las mejores ofertas en tecnología y gadgets." />`
